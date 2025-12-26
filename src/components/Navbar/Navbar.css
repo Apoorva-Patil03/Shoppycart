@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f1e8; /* light beige */
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb; /* light text on navy */
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* NAVBAR */
+.nav {
+  background-color: #0b1c2d; /* navy blue */
+  color: #ffffff;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.links a {
+  border-bottom: 2px solid transparent;
+}
+
+.links a:hover {
+  border-color: #ffffff;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.links li {
+  padding: 10px;
+  color: #ffffff;
+}
+
+.cart-icon {
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+.login {
+  font-weight: bold;
+  color: #0b1c2d;
+  background-color: #f5f1e8; /* beige */
+  border: 2px solid transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.login:hover {
+  color: #ffffff;
+  background-color: transparent;
+  border-color: #ffffff;
+}
+
+.cart-icon:hover {
+  filter: brightness(150%);
+  color: #ffffff;
+}
+
+.user {
+  display: flex;
+  margin-bottom: 2px;
+}
+
+.nav-item {
+  display: block;
+  position: relative;
+}
+
+nav svg {
+  width: 2rem;
+  fill: #ffffff;
+}
+
+.amount-container {
+  position: absolute;
+  top: -0.68rem;
+  right: -0.85rem;
+  width: 1.62rem;
+  height: 1.62rem;
+  border-radius: 50%;
+  background-color: #1e3a8a; /* dark navy */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.total-amount {
+  color: #ffffff;
+  margin-bottom: 0;
+  font-size: 1.22rem;
+}
+
+/* SHOPYCART TITLE */
+.nav h1 {
+  color: #ffffff;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+@media (min-width: 767px) {
+  .nav-container {
+    padding: 20px;
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 350px) {
+  .links a:focus {
+    border: none;
+  }
+}

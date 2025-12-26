@@ -1,0 +1,18 @@
+.heading-center {
+  color: #fff;
+  background-color: #eadfc8;
+  min-height: 10vh;
+  width: 90vvw;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+/* PageHero.css */
+.heading-center h3 {
+  font-family: Georgia, "Times New Roman", serif; /* change to your preferred font */
+  color: #0b1c2d; /* optional: change text color */
+  font-size: 1.2rem; /* optional: adjust size */
+  font-weight: bold; /* optional */
+  text-align: center; /* keep it centered */
+}
